@@ -3494,8 +3494,8 @@ button:disabled,
   flex-shrink: 0;
   display: grid;
   justify-items: end;
-  margin: 0 0 2em 4em;
-  width: 30%;
+  margin: 0;
+  width: 45%;
   height: 25%;
 }
 
