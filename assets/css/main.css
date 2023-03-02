@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
-/*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 html,
 body,
 div,
@@ -107,6 +102,11 @@ menu,
 nav,
 section {
   display: block;
+}
+
+footer p.copyright {
+  display: grid;
+  place-content: center;
 }
 
 body {
@@ -1902,7 +1902,7 @@ header p {
 header.major> :last-child {
   border-bottom: solid 3px #A1B319;
   display: inline-block;
-  margin: 0 0 2em 0;
+  margin: 2em 0 2em 0;
   padding: 0 0.75em 0.5em 0;
 }
 
@@ -2249,7 +2249,7 @@ ol li {
 
 ul {
   list-style: disc;
-  margin: 0 0 2em 0;
+  margin: 0 12px 2em 0;
   padding-left: 1em;
 }
 
@@ -2291,7 +2291,7 @@ ul.actions {
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
-  display: flex;
+  display: inline-flex;
   cursor: default;
   list-style: none;
   margin-left: -1em;
@@ -2381,9 +2381,17 @@ ul.icons li .icon:before {
 }
 
 /* Contact */
+/* #contactMe {
+  display: grid;
+  place-content: center;
+} */
+
 ul.contact {
   list-style: none;
   padding: 0;
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: baseline; */
 }
 
 ul.contact li {
@@ -2686,6 +2694,7 @@ button:disabled,
   pointer-events: none;
   opacity: 0.25;
 }
+
 
 /* Mini Posts */
 .mini-posts article {
